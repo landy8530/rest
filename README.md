@@ -73,3 +73,6 @@ Request类和Response类（服务端和客户端都需要）都是基本的POJO
     @Produces(MediaType.APPLICATION_OCTET_STREAM)
 ```
 
+# 文件上传下载实例代码
+
+http://pan.baidu.com/s/1slvwZQP
