@@ -27,19 +27,24 @@ Request类和Response类（服务端和客户端都需要）都是基本的POJO
 证书的生成过程可以参考[Java Secure(SSL/TLS) Socket实现](https://github.com/landy8530/socket)
 
 # jersey中有几种常用的接收参数的注解
-
+```
  @PathParam 接收链接中参数，如”/xxx/{name}/”,@PathParm(“name”)
+
  @QueryParam 接收链接中的普通参数，如”/xxx?name=ttt”,@QueryParam(“name”)
+
  @FormParm 接收post提交中的表单参数
+
  @FormDataParm 上传文件接收文件参数
 
-# json
+```
+# JSON
  开发中，json已经常用到无处不在了，jersey对json的支持很好。
 
  接收json需要使用@Consumes注解，指定解压方式：
  ```
  @Consumes(MediaType.APPLICATION_JSON)
  ```
+
  返回json需要使用@Produces注解，指定压缩方式：
  ```
  @Produces(MediaType.APPLICATION_JSON)
