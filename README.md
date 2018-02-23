@@ -36,16 +36,19 @@ Request类和Response类（服务端和客户端都需要）都是基本的POJO
 # json
  开发中，json已经常用到无处不在了，jersey对json的支持很好。
 
- 接收json，需要使用@Consumes，注解指定解压方式：
+ 接收json需要使用@Consumes注解，指定解压方式：
+ ```
  @Consumes(MediaType.APPLICATION_JSON)
-
+ ```
  返回json需要使用@Produces注解，指定压缩方式：
+ ```
  @Produces(MediaType.APPLICATION_JSON)
+ ```
 
 # 文件上传
 
 ```
-@POST
+  @POST
   @Path("import-excel")
   @Consumes(MediaType.MULTIPART_FORM_DATA)
   @Produces(MediaType.APPLICATION_JSON)
@@ -62,5 +65,6 @@ Request类和Response类（服务端和客户端都需要）都是基本的POJO
 文件下载需要将Response对象的压缩方式，指定为
 
 ```
-@Produces(MediaType.APPLICATION_OCTET_STREAM)
+    @Produces(MediaType.APPLICATION_OCTET_STREAM)
 ```
+
