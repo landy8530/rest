@@ -18,6 +18,10 @@
             <!--<param-name>javax.ws.rs.Application</param-name>-->
             <!--<param-value>com.cisdi.jersey.api.ApplicationAPI</param-value>-->
         <!--</init-param>-->
+        <!--在web.xml中配置servletContainer和对应的ResourceConfig
+        从而使得服务启动时能够自动扫描需要加载的rest服务类，
+        同时如果rest服务要使用json格式的文本传输还需要设置Json相关的配置，
+        使得Json可以自动转换 -->
         <!--<init-param>-->
             <!--<param-name>javax.json.stream.JsonGenerator.prettyPrinting</param-name>-->
             <!--<param-value>true</param-value>-->
