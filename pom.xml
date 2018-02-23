@@ -51,20 +51,40 @@
             <version>1.7.2</version>
         </dependency>
         <!-- slf4j bound to Log4j end -->
-
+        <!-- JAVA EE -->
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
         <!-- Jersey Start -->
         <!-- 2.x 版本是glassfish ********************************************************-->
+        <!-- jersey-client 是jersey提供的客户端包，封装了一些客户端操作的类 -->
+        <dependency>
+            <groupId>org.glassfish.jersey.core</groupId>
+            <artifactId>jersey-client</artifactId>
+            <version>${jersey.version}</version>
+        </dependency>
+        <!-- jersey-container-servlet是jersey的核心，服务端必备包 -->
         <dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
             <artifactId>jersey-container-servlet</artifactId>
             <version>${jersey.version}</version>
             <scope>compile</scope>
         </dependency>
+        <!-- jersey-media-multipart 是jersey的上传文件的支持 -->
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-multipart</artifactId>
             <version>${jersey.version}</version>
             <scope>compile</scope>
+        </dependency>
+        <!-- jersey-media-moxy 是定义了jersey支持的常用的数据格式，json，xml都包括其中 -->
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-moxy</artifactId>
+            <version>${jersey.version}</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.ext</groupId>
