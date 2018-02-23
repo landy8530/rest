@@ -1,5 +1,6 @@
 # 代码介绍
 com.jersey包下为jersey1.x 版本的demo
+
 com.restful包下为jersey2.x 版本的demo
 
 # Jersey提供3种基本方式来使用JSON格式:
