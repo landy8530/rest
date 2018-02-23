@@ -2,7 +2,7 @@ package com.jersey.json.pojo;
 
 /**
  * @author landyl
- * @create 2018-02-1:44 PM
+ * @date 2/23/2018 9:19 AM
  */
 public class Request {
     private String query;

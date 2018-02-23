@@ -18,7 +18,7 @@ import java.net.URI;
 
 /**
  * @author landyl
- * @create 2018-02-2:16 PM
+ * @date 2/23/2018 9:17 AM
  * 与JAXB相比，结果是相同的，但是处理过程（主要是组装JSON对象）要复杂
  */
 @Path("query")

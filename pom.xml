@@ -32,6 +32,26 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- log4j start -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <!-- log4j end -->
+        <!-- slf4j bound to Log4j start -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.2</version>
+        </dependency>
+        <!-- slf4j bound to Log4j end -->
+
         <!-- Jersey Start -->
         <!-- 2.x 版本是glassfish ********************************************************-->
         <dependency>
@@ -83,6 +103,7 @@
             <scope>compile</scope>
         </dependency>
         <!-- 1.x版本是sun公司 ********************************************************-->
+        <!-- 客户端支持 -->
         <dependency>
             <groupId>com.sun.jersey</groupId>
             <artifactId>jersey-client</artifactId>
@@ -93,6 +114,7 @@
             <!--<artifactId>jersey-server</artifactId>-->
             <!--<version>1.18</version>-->
         <!--</dependency>-->
+        <!--服务端支持-->
         <dependency>
             <groupId>com.sun.jersey</groupId>
             <artifactId>jersey-grizzly2</artifactId>

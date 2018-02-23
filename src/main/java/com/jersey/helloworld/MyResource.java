@@ -30,7 +30,7 @@ import org.glassfish.grizzly.http.server.HttpServer;
 
 /**
  * @author landyl
- * @create 2018-02-11:17 AM
+ * @date 2/23/2018 9:17 AM
  * 使用jersey 1.x版本的demo
  */
 @Singleton

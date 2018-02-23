@@ -11,7 +11,7 @@ import javax.ws.rs.core.MediaType;
 
 /**
  * @author landyl
- * @create 2018-02-1:58 PM
+ * @date 2/23/2018 9:19 AM
  */
 public class JerseyClient {
     public static void main(String[] args) {

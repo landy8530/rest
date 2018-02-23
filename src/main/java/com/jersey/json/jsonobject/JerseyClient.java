@@ -12,7 +12,7 @@ import javax.ws.rs.core.MediaType;
 
 /**
  * @author landyl
- * @create 2018-02-2:19 PM
+ * @date 2/23/2018 9:16 AM
  */
 public class JerseyClient {
     public static void main(String[] args) {

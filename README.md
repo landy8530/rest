@@ -1,3 +1,7 @@
+# 代码介绍
+com.jersey包下为jersey1.x 版本的demo
+com.restful包下为jersey2.x 版本的demo
+
 # Jersey提供3种基本方式来使用JSON格式:
 ## 1.基于POJO
 Request类和Response类（服务端和客户端都需要）都是基本的POJO
@@ -11,3 +15,8 @@ Request类和Response类（服务端和客户端都需要）都是基本的POJO
 与JAXB相比，结果是相同的，但是处理过程（主要是组装JSON对象）要复杂
 
 对于上面3种方式，均可使用String类代替Request类、Response类或JSONObject类，Jersey会自动将对象转换为JSON串
+
+# Jersey对HTTPS的支持
+
+证书的生成过程可以参考[Java Secure(SSL/TLS) Socket实现](https://github.com/landy8530/socket)
+

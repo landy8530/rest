@@ -14,7 +14,7 @@ import java.util.Iterator;
 
 /**
  * @author landyl
- * @create 2018-02-11:28 AM
+ * @date 2/23/2018 9:19 AM
  */
 public class JerseyClient {
 

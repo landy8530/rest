@@ -19,7 +19,7 @@ import java.net.URI;
 
 /**
  * @author landyl
- * @create 2018-02-1:49 PM
+ * @date 2/23/2018 9:18 AM
  */
 @Path("query")
 public class MyResource {
