@@ -1,5 +1,6 @@
 # 代码介绍
 com.jersey包下为jersey1.x 版本的demo
+
 com.restful包下为jersey2.x 版本的demo
 # jar包详解
     > jersey-client 是jersey提供的客户端包，封装了一些客户端操作的类
