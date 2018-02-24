@@ -82,9 +82,13 @@ http://pan.baidu.com/s/1slvwZQP
 # JAX-WS简介
 
   JAX_RPC(Java API for XML-Based RPC)允许Java应用程序可以通过已知的描述信息调用一个基于Java的Web服务，描述信息与Web服务的WSDL描述相一致
+  
   JAX-RPC2.0更名为JAX-WS2.0(Java API for XML-Based Web Services)
+  
   JAX-WS中，一个远程调用可以转换为一个基于XML的协议，如SOAP。开发者在使用JAX-WS的过程中，不需要编写任何生成、处理SOAP消息的代码，JAX-WS在运行时自动将API的调用转换为相应的SOAP消息
+  
   在服务端，用户只需要通过Java语言定义远程调用所需实现的接口，并提供相应实现，通过调用JAX-WS的服务发布接口即可将其发布为WebService接口
+  
   在客户端，用户可以通过JAX-WS的API创建一个代理来实现对于远程服务器端的调用
 
 
